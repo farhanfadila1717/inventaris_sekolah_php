@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-image:url(../img/baner/bg4.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+#pilih{
+    margin-top: 10% !important;
+    position: relative;
+    margin: 5% auto;
+    height: 400px;
+    width: 760px;
+    background: #4e4e4e;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+.right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 380px;
+    height: 400px;
+}
+h1{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    font-weight: 300;
+    font-size: 28px;
+    color: rgb(170, 170, 170);
+    /* text-align: center; */
+}
+input[type="submit"]{
+    margin : 5% 0 0 10%;
+    width: 80%;
+    height: 35px;
+    background: none;
+    color: rgb(170, 170, 170);
+    border-radius: 5px;
+    border: 1px solid rgb(170, 170, 170);
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background: rgb(170, 170, 170);
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+.left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 380px;
+    height: 400px;
+    background-image: url(../img/baner/bg2.jpg);
+    background-size:cover; 
+}
